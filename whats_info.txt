@@ -1,0 +1,134 @@
+Grupo: Jorge Ramírez (DEVLIVE)
+ID_grupo: ErSJmVnv5YlGXeJzWya8Z9
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Josué Villalobos (DEVLIVE)
+ID_grupo: JiUoJzJ77mQ0CnbjAJsroY
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Kris Saborio (DEVLIVE)
+ID_grupo: Ihqr88ujklgI5ahR7dkNtY
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Sebas Ovares (DEVLIVE)
+ID_grupo: H89nZz71El7F6ws9AAtmlb
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Génesis Hernández (DEVLIVE)
+ID_grupo: LQ61bymcbbu62aHzKSkTos
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Cris Madrigal (DEVLIVE)
+ID_grupo: J96pirCghfL1WqMY2RAqmP
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Kevin Fallas (DEVLIVE)
+ID_grupo: JJgQQLn7y5u0DUl0pXBeFw
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Obryan Arias (DEVLIVE)
+ID_grupo: J5wfgB4MMbaCJK4gq218Gt
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Cristian Ramírez (DEVLIVE)
+ID_grupo: HNwyYboMeKU3jYzfhU1hhG
+Tipo_mensaje: nuevo_estudiante
+Estado: activo
+
+Grupo: Manuel Jiménez (DEVLIVE)
+ID_grupo: I7te26dZubn7kcVKdfs0Eo
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: Juanjo (DEVLIVE)
+ID_grupo: L9F4sPVOVkkHATGMDDiohD
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: Jayna Campos (DEVLIVE)
+ID_grupo: DAJegq2qkL42hcxfeT0Aif
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: Alonzo (DEVLIVE)
+ID_grupo: GmTTQxJrqIb7H5QvrK3fy8
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: Mariana Ellis (DEVLIVE)
+ID_grupo: DCrUSQEetKfE1YZI9NeW4u
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: 
+ID_grupo: 
+Tipo_mensaje: nuevo_estudiante
+Estado: inactivo
+
+Grupo: Ashley - Zoe (DEVLIVE)
+ID_grupo: H6sZL6IH6ud5cgmcuopG5D
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Alex - Francisco (DEVLIVE)
+ID_grupo: GBW1dH6ZP5t5ZWDhnRrDHV
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Fabian - Joseph (DEVLIVE)
+ID_grupo: ISL9SThAtI8AriyWlcPvDo
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Sebas - Ale (DEVLIVE)
+ID_grupo: KSXTZoU0LJ0Db1nFg8GdTP
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: David - Samuel (DEVLIVE)
+ID_grupo: GoQ5Lk6Nht4KoQon7YEPmh
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Bryan - J David (DEVLIVE)
+ID_grupo: BdrtWvTESPJ5gIAQyKcWxd
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Edgardo - Rachit (DEVLIVE)
+ID_grupo: L0AMFmBnDTuEtG5KWpHYe0
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Emerson - Sergio (DEVLIVE)
+ID_grupo: IcJDSb2qUKsFk4P59iyWoc
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Alexander - Daniel (DEVLIVE)
+ID_grupo: HqsfKxxA5dx1Qjz3A4uGhy
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Silvana - Jose (DEVLIVE)
+ID_grupo: FjAXYELL5kB03EUvJ9yAN3
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: Gerald - Kike (DEVLIVE)
+ID_grupo: HuCT61LtrBTFpUnXcPFrOf
+Tipo_mensaje: pareja_estudiantes
+Estado: activo
+
+Grupo: 
+ID_grupo: 
+Tipo_mensaje: pareja_estudiantes
+Estado: inactivo

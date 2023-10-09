@@ -1,0 +1,34 @@
+# Ignorar el archivo whats_prueba.txt
+whats_prueba.txt
+
+# Ignorar el directorio del entorno virtual (si está en la raíz del proyecto)
+venv/
+
+# Ignorar la carpeta Lib (contiene bibliotecas y dependencias)
+Lib/
+Scripts/
+
+# Ignorar archivos y directorios generados por Python y PyCharm
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Ignorar archivos específicos de PyWhatKit
+PyWhatKit_DB.txt
+
+# Ignorar archivos específicos de PyCharm (pueden variar según la configuración)
+.idea/
+.vscode/
+
+# Ignorar archivos de caché y registros
+.cache/
+logs/
+
+# Ignorar archivos de configuración local (pueden variar según tus necesidades)
+config.py
+.env
+pyvenv.cfg
