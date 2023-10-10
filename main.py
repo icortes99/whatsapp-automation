@@ -1,8 +1,8 @@
 import pywhatkit as whats
 
-mensaje_nuevo_estudiante = "Eso eso. Es para recordarte de postear tu status diario. Si por alguna razón no pueden avanzar un día, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir tu progreso y ayudarte en los módulos que más tiempo te demandan"
+mensaje_nuevo_estudiante = "Eso eso. Es para recordarte de postear tu status diario. Si por alguna razon no pueden avanzar un dia, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir tu progreso y ayudarte en los modulos que mas tiempo te demandan. Gracias! :D"
 
-mensaje_pareja_estudiantes = "Hola Devs! Es para recordarles de postear su status diario. Si por alguna razón no pueden avanzar un día, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudarles en los módulos que más tiempo les demanda. Si ya lo hicieron pueden ignorar el mensaje. Muchas gracias! :D"
+mensaje_pareja_estudiantes = "Hola Devs! Es para recordarles de postear su status diario. Si por A o por B no pueden avanzar hoy, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudarles en los modulos que mas tiempo les demanda. Si ya lo hicieron pueden ignorar el mensaje. Muchas gracias! :D"
 
 #Abrir y leer el archivo whats_info.txt
 with open("whats_info.txt", "r") as archivo:

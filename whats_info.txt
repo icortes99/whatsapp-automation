@@ -11,7 +11,7 @@ Estado: activo
 Grupo: Kris Saborio (DEVLIVE)
 ID_grupo: Ihqr88ujklgI5ahR7dkNtY
 Tipo_mensaje: nuevo_estudiante
-Estado: activo
+Estado: inactivo
 
 Grupo: Sebas Ovares (DEVLIVE)
 ID_grupo: H89nZz71El7F6ws9AAtmlb
@@ -36,12 +36,12 @@ Estado: activo
 Grupo: Obryan Arias (DEVLIVE)
 ID_grupo: J5wfgB4MMbaCJK4gq218Gt
 Tipo_mensaje: nuevo_estudiante
-Estado: activo
+Estado: inactivo
 
 Grupo: Cristian Ramírez (DEVLIVE)
 ID_grupo: HNwyYboMeKU3jYzfhU1hhG
 Tipo_mensaje: nuevo_estudiante
-Estado: activo
+Estado: inactivo
 
 Grupo: Manuel Jiménez (DEVLIVE)
 ID_grupo: I7te26dZubn7kcVKdfs0Eo
