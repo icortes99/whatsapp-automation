@@ -4,29 +4,17 @@ import notion_connection
 
 notion_client = notion_connection.connection()
 
-#Open and read whats_info.txt
-with open("whats_info.txt", "r") as file:
-  lines = file.readlines()
+notion_response = notion_connection.read_database(notion_client, constants.notion_page_id)
 
-for line in lines:
-  lineSplit = line.strip().split(": ")
+contador = 0
 
-  if len(lineSplit) == 2:
-    key, value = lineSplit[0], lineSplit[1]
+for entry in notion_response:
+  chat_id = entry['properties']['id']['rich_text'][0]['text']['content']
+  status = entry['properties']['Status']['status']['name']
 
-    if key == constants.keys[0]:
-      group_id = value
-    elif key == constants.keys[1]:
-      message_type = value
-    elif key == constants.keys[2] and value == constants.possible_values[0]:
-      is_active = True
-
-      #If channel is active, send the proper message template via whatsapp
-      if is_active:
-        if message_type == constants.possible_values[1]:
-          whats.sendwhatmsg_to_group_instantly(group_id, constants.message_new_student, 15, True, 3)
-        elif message_type == constants.possible_values[2]:
-          whats.sendwhatmsg_to_group_instantly(group_id, constants.message_couple_students, 15, True, 3)
+  if status == 'In Progress':
+    whats.sendwhatmsg_to_group_instantly(chat_id, constants.message_new_student, 15, True, 3)
+    
 
 #whats.sendwhatmsg_to_group_instantly(group_id, constants.message_new_student, 15, True, 3)
 #whats.sendwhatmsg_to_group_instantly(group_id, constants.message_couple_students, 15, True, 3)
