@@ -1,28 +1,32 @@
 import pywhatkit as whats
+import constants
+import notion_connection
 
-mensaje_nuevo_estudiante = "Eso eso. Es para recordarte de postear tu status diario. Si por alguna razon no pueden avanzar un dia, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir tu progreso y ayudarte en los modulos que mas tiempo te demandan. Gracias! :D"
+notion_client = notion_connection.connection()
 
-mensaje_pareja_estudiantes = "Hola Devs! Es para recordarles de postear su status diario. Si por A o por B no pueden avanzar hoy, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudarles en los modulos que mas tiempo les demanda. Si ya lo hicieron pueden ignorar el mensaje. Muchas gracias! :D"
+#Open and read whats_info.txt
+with open("whats_info.txt", "r") as file:
+  lines = file.readlines()
 
-#Abrir y leer el archivo whats_info.txt
-with open("whats_info.txt", "r") as archivo:
-  lineas = archivo.readlines()
+for line in lines:
+  lineSplit = line.strip().split(": ")
 
-for linea in lineas:
-  partes = linea.strip().split(": ")
+  if len(lineSplit) == 2:
+    key, value = lineSplit[0], lineSplit[1]
 
-  if len(partes) == 2:
-    clave, valor = partes[0], partes[1]
+    if key == constants.keys[0]:
+      group_id = value
+    elif key == constants.keys[1]:
+      message_type = value
+    elif key == constants.keys[2] and value == constants.possible_values[0]:
+      is_active = True
 
-    if clave == "ID_grupo":
-      id_grupo = valor
-    elif clave == "Tipo_mensaje":
-      tipo_mensaje = valor
-    elif clave == "Estado" and valor == "activo":
-      estado_activo = True
+      #If channel is active, send the proper message template via whatsapp
+      if is_active:
+        if message_type == constants.possible_values[1]:
+          whats.sendwhatmsg_to_group_instantly(group_id, constants.message_new_student, 15, True, 3)
+        elif message_type == constants.possible_values[2]:
+          whats.sendwhatmsg_to_group_instantly(group_id, constants.message_couple_students, 15, True, 3)
 
-      if estado_activo:
-        if tipo_mensaje == "nuevo_estudiante":
-          whats.sendwhatmsg_to_group_instantly(id_grupo, mensaje_nuevo_estudiante, 15, True, 3)
-        elif tipo_mensaje == "pareja_estudiantes":
-          whats.sendwhatmsg_to_group_instantly(id_grupo, mensaje_pareja_estudiantes, 15, True, 3)
+#whats.sendwhatmsg_to_group_instantly(group_id, constants.message_new_student, 15, True, 3)
+#whats.sendwhatmsg_to_group_instantly(group_id, constants.message_couple_students, 15, True, 3)
