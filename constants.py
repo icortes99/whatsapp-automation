@@ -1,4 +1,11 @@
 notion_token = 'secret_EaK6GyxvJGmE1anhaNSC31DrUNk6zFHw7hK1EkqXsjF'
 notion_page_id = 'c0b6d7e332fe41dd9f1c44e9609ca5a9'
-message_new_student = 'Eso eso. Es para recordar de postear su status diario. Si por alguna razon no pueden avanzar un dia, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudar en los modulos que mas tiempo demandan. Gracias! :D'
-message_couple_students = 'Hola Devs! Es para recordarles de postear su status diario. Si por A o por B no pueden avanzar hoy, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudarles en los modulos que mas tiempo les demanda. Si ya lo hicieron pueden ignorar el mensaje. Muchas gracias! :D'
+
+template_message1 = 'Eso eso. Es para recordar de postear su status diario. Si por alguna razon no pueden avanzar un dia, su status puede ser lo que tienen planeado para el siguiente dia. De esta forma podemos medir su progreso y ayudar en los modulos que mas tiempo demandan. Gracias! 😁'
+template_message2 = '¡Hola, equipo! Un rapido recordatorio: compartir su estado diario es valioso para todos nosotros. Si se les pasa un dia, pueden anotar sus planes para el siguiente. Esto facilita el seguimiento de su progreso y garantiza que podamos brindar la mejor asistencia. ¡Gracias por ser parte de nuestro equipo! 😎'
+template_message3 = '¡Hola a todos! Queria saludarlos y recordarles que compartir su progreso diario es una oportunidad para enriquecer nuestra experiencia juntos. Si un dia se les pasa, anoten sus planes para el siguiente, y asi continuaremos avanzando juntos. ¡Gracias por ser parte de nuestro increible equipo! 🙌'
+template_message4 = 'Hola a todos. Recuerden que compartir su progreso diario es como marcar los hitos en nuestro camino. Si alguna vez olvidan hacerlo un dia, anoten lo que tienen planeado para el siguiente. Esto nos permite celebrar juntos sus logros y apoyarlos en momentos dificiles. ¡Gracias por su compromiso! 🌟'
+template_message5 = 'Saludos a todos. Queria recordarles la importancia de documentar su progreso. Si en algun momento no pueden hacerlo un dia, simplemente anoten sus planes para el siguiente. Esto nos permite mantenernos conectados y brindar la asistencia que necesitan. ¡Gracias por su participacion en esta gran aventura! 🗺️'
+template_message6 = 'Saludos, equipo. Recuerden compartir su status diario. Si algun dia no pueden hacer una actualizacion, simplemente nos cuentan sus planes para el proximo dia. ¡Gracias por su compromiso y esfuerzo diario! 🚀'
+
+messages_templates = [template_message1, template_message2, template_message3, template_message4, template_message5, template_message6]
